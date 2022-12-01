@@ -16,17 +16,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-controls</artifactId>
-            <version>13.0.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-fxml</artifactId>
-            <version>13.0.2</version>
-        </dependency>
-
-        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.version}</version>
@@ -60,7 +49,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.ecse437project/com.example.ecse437project.HelloApplication
+                            <mainClass>com.example.ecse437project/com.ecse437project.Calculator
                             </mainClass>
                         </configuration>
                     </execution>

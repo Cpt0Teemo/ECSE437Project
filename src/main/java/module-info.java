@@ -3,6 +3,6 @@ module com.example.ecse437project {
     requires javafx.fxml;
 
 
-    opens com.example.ecse437project to javafx.fxml;
-    exports com.example.ecse437project;
+    opens com.ecse437project to javafx.fxml;
+    exports com.ecse437project;
 }
