@@ -1,4 +1,4 @@
-package com.ecse437project;
+package java.com.ecse437project;
 
 public interface Operation {
 	public static int apply(int x, int y) {

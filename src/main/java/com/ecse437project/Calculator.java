@@ -1,4 +1,4 @@
-package com.ecse437project;
+package java.com.ecse437project;
 
 import java.lang.invoke.MutableCallSite;
 import java.util.Scanner;
