@@ -21,13 +21,16 @@ public class Calculator {
             case "pow":
                 return Exponent.apply(x,y);
 
+            case "binomial":
+                return BinomialCoefficient.apply(x,y);
+
             default:
                 throw new IllegalArgumentException("Please enter a valid operator.");
         }
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter a valid operator (add, sub, multi, div, pow)");
+        System.out.println("Please enter a valid operator (add, sub, multi, div, pow, binomial)");
         String op = scanner.nextLine();
         System.out.println("Please input the first operand.");
         int x = scanner.nextInt();
