@@ -49,6 +49,13 @@ public class DivisionTest {
     }
 
     @Test
+    void shouldBreakWhenDividingByZeroWrong() {
+        int x = 5;
+
+        assertThrows(IllegalStateException.class ,() -> Division.apply(x, 1));
+    }
+
+    @Test
     void shouldDivideZero() {
         int x = 5;
 
